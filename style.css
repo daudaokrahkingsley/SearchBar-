@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .left {
+    flex: 35%;
+    padding: 15px 0;
+  }
+
+  .left h2 {
+    padding-left: 8px;
+  }
+
+  
+  .right {
+    flex: 65%;
+    padding: 15px;
+  }
+
+  #mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: none;
+    outline: none;
+    border-left: 5px solid red ;
+    border-right: 2px solid rgb(2, 21, 190) ;
+    
+  }
+
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+
+  #myMenu li a:hover {
+    background-color: rgb(19, 134, 15);
+  }
+

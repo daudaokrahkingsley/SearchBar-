@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search Menu -ODK</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="blink()" ;>
+    <h2>Search Menu on Side Bar</h2>
+
+    <div class="row">
+      <div class="left" style="background-color: rgb(109, 122, 196)">
+        <h2>Countries</h2>
+        <input
+          type="text"
+          id="mySearch"
+          onkeyup="myFunction()"
+          placeholder="Type anything to Search.."
+          title="Type in a category"
+        />
+        <ul id="myMenu">
+          <li><a href="#">Nigeria</a></li>
+          <li><a href="#">Ghana</a></li>
+          <li><a href="#">Togo</a></li>
+          <li><a href="#">Germany</a></li>
+          <li><a href="#">USA</a></li>
+          <li><a href="#">Italy</a></li>
+          <li><a href="#">China</a></li>
+          <li><a href="#">India</a></li>
+          <li><a href="#">Ethiopia</a></li>
+        </ul>
+      </div>
+
+      <div class="right" style="background-color: #ddd">
+        <h2>Page Content</h2>
+
+        <p
+          style="
+            position: absolute;
+            top: 50%;
+            left: 60%;
+            font-size: 50px;
+            transform: translate(-50%, 50%);
+            bottom: 50%;
+          "
+        >
+          Project Area
+        </p>
+      </div>
+    </div>
+
+    <div id="blink" style="color: red; font-size: 25px">
+      From Kingsley Dauda Okrah
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
